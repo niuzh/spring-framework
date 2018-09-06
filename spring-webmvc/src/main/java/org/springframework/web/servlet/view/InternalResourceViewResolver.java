@@ -20,6 +20,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.util.ClassUtils;
 
 /**
+ * 通过为视图添加前后缀的方式解析视图
  * Convenient subclass of {@link UrlBasedViewResolver} that supports
  * {@link InternalResourceView} (i.e. Servlets and JSPs) and subclasses
  * such as {@link JstlView}.

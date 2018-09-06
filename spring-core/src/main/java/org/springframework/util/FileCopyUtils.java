@@ -30,6 +30,7 @@ import java.nio.file.Files;
 import org.springframework.lang.Nullable;
 
 /**
+ * 文件和流复制工具类
  * Simple utility methods for file and stream copying. All copy methods use a block size
  * of 4096 bytes, and close all affected streams when done. A variation of the copy
  * methods from this class that leave streams open can be found in {@link StreamUtils}.

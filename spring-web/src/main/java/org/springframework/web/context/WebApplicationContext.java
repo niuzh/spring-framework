@@ -22,6 +22,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.lang.Nullable;
 
 /**
+ * 专门为Web应用准备的，允许从根目录装载配置文件，完成初始化工作。
+ * 应用上下文对象放入ServletContext属性中。
+ * 为Bean添加了新的作用域。request，session，application
  * Interface to provide configuration for a web application. This is read-only while
  * the application is running, but may be reloaded if the implementation supports this.
  *

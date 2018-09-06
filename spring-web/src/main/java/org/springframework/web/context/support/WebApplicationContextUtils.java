@@ -47,6 +47,7 @@ import org.springframework.web.context.request.SessionScope;
 import org.springframework.web.context.request.WebRequest;
 
 /**
+ * 从ServletContext中获取WebApplicationContext对象
  * Convenience methods for retrieving the root {@link WebApplicationContext} for
  * a given {@link ServletContext}. This is useful for programmatically accessing
  * a Spring application context from within custom web views or MVC actions.

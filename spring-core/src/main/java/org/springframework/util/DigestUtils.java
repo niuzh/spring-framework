@@ -22,6 +22,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
+ * 加密工具类
  * Miscellaneous methods for calculating digests.
  *
  * <p>Mainly for internal use within the framework; consider

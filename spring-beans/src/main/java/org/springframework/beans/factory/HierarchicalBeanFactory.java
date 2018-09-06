@@ -19,6 +19,7 @@ package org.springframework.beans.factory;
 import org.springframework.lang.Nullable;
 
 /**
+ * 父子级联IoC容器的接口，子容器可以通过接口方法访问父容器。
  * Sub-interface implemented by bean factories that can be part
  * of a hierarchy.
  *

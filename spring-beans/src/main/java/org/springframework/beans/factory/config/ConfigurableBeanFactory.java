@@ -31,6 +31,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.util.StringValueResolver;
 
 /**
+ * 增加IoC容器的可定执性。定义了设置类装载器、属性编辑器、容器初始化后置处理器等方法。
  * Configuration interface to be implemented by most bean factories. Provides
  * facilities to configure a bean factory, in addition to the bean factory
  * client methods in the {@link org.springframework.beans.factory.BeanFactory}

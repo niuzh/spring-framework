@@ -24,6 +24,7 @@ import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.lang.Nullable;
 
 /**
+ * 建立的BeanFactory的基础之上，提供更多面向应用的功能，提供了国际化支持和框架事件体系。可称为Spring容器
  * Central interface to provide configuration for an application.
  * This is read-only while the application is running, but may be
  * reloaded if the implementation supports this.

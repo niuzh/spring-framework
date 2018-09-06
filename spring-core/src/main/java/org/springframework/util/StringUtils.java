@@ -36,6 +36,7 @@ import java.util.TimeZone;
 import org.springframework.lang.Nullable;
 
 /**
+ * 字符串处理工具类
  * Miscellaneous {@link String} utility methods.
  *
  * <p>Mainly for internal use within the framework; consider
