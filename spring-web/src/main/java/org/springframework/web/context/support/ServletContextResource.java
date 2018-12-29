@@ -34,6 +34,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.util.WebUtils;
 
 /**
+ * 访问web容器上下文中的资源
  * {@link org.springframework.core.io.Resource} implementation for
  * {@link javax.servlet.ServletContext} resources, interpreting
  * relative paths within the web application root directory.

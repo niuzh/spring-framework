@@ -23,6 +23,7 @@ import java.security.NoSuchAlgorithmException;
 
 /**
  * 加密工具类
+ * 支持一般加蜜和16十六进制
  * Miscellaneous methods for calculating digests.
  *
  * <p>Mainly for internal use within the framework; consider

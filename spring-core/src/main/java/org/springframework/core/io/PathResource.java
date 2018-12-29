@@ -35,6 +35,7 @@ import java.nio.file.StandardOpenOption;
 import org.springframework.util.Assert;
 
 /**
+ * 读取资源文件的类
  * {@link Resource} implementation for {@link java.nio.file.Path} handles,
  * performing all operations and transformations via the {@code Path} API.
  * Supports resolution as a {@link File} and also as a {@link URL}.
